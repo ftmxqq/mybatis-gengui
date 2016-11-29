@@ -93,7 +93,7 @@ public class LoginWindowUi extends JFrame {
         contentPane.add(label);
 
         txtHost = new JTextField();
-        txtHost.setText("172.17.10.4");
+        txtHost.setText("localhost");
         txtHost.setBounds(60, 46, 164, 21);
         contentPane.add(txtHost);
         txtHost.setColumns(10);
@@ -123,7 +123,6 @@ public class LoginWindowUi extends JFrame {
         contentPane.add(label_3);
 
         txtPassword = new JTextField();
-        txtPassword.setText("password");
         txtPassword.setColumns(10);
         txtPassword.setBounds(60, 133, 164, 21);
         contentPane.add(txtPassword);
@@ -133,7 +132,6 @@ public class LoginWindowUi extends JFrame {
         contentPane.add(label_4);
 
         txtDatabase = new JTextField();
-        txtDatabase.setText("ptyyxtzyhj");
         txtDatabase.setColumns(10);
         txtDatabase.setBounds(60, 161, 164, 21);
         contentPane.add(txtDatabase);
